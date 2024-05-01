@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "appSilFazendoArte",
+    "slug": "appSilFazendoArte",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconn.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo_final.png",
+      "resizeMode": "contain",
+      "backgroundColor": "black"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_final.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
